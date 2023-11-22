@@ -1,0 +1,19 @@
+p::first-letter{
+    color:red;
+    background-color: black;
+}
+ 
+h1::after{
+    content: "welcome to web tech class";
+}
+h1::before{
+    content: "hey,"
+}
+li::marker{
+    content:""
+    color: rebeccapurple;
+}
+p::selection{
+    color: black;
+    background-color: red;
+}
