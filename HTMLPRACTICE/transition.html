@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* body{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    } */
+
+    /* 1st property
+    div{
+        height: 200px;
+        width: 200px;
+        background-color: deeppink;
+        transition-duration: 5s;
+    }
+    div:hover{
+        background-color: green;
+        height: 500px;
+        width: 500px;
+    } */
+    /* 2nd property 
+    div{
+        height: 200px;
+        width: 200px;
+        background-color: deeppink;
+        transition-duration: 5s;
+        
+    }
+    div:hover{
+        background-color: green;
+        height: 500px;
+        width: 500px;
+        transition-delay: 2s;
+    }*/
+    /* 3rd property 
+    div{
+        height: 200px;
+        width: 200px;
+        background-color: deeppink;
+        transition-duration: 5s;
+        transition-property: height width;
+        
+    }
+    div:hover{
+        background-color: green;
+
+        height: 500px;
+        width: 500px;
+       
+        
+    } */
+    /* 4th property */
+    .container{
+        height: 50px;
+        width: 50px;
+        background-color:darkgoldenrod;
+        margin: 10px;
+        color: white;
+        transition-duration: 3s;
+        
+    }
+   .container:hover{
+    
+        width:200px;   
+        background-color: aqua;
+    }
+    #box1{
+        transition-timing-function: linear;
+        
+    }
+    #box2{
+        transition-timing-function: ease;
+    }
+    #box3{
+        transition-timing-function: ease-in;
+    }
+    #box4{
+        transition-timing-function: ease-out;
+    }
+    #box5{
+        transition-timing-function: ease-in-out;
+    }
+    #box6{
+        transition-timing-function: cubic-bezier();
+    }
+    
+
+
+</style>
+<body>
+    <!-- for 1to 3 property
+    <div></div> -->
+    <div class="container" id="box1">linear</div>
+    <div class="container" id="box2">ease</div>
+    <div class="container" id="box3">ease-in</div>
+    <div class="container" id="box4">ease-out</div>
+    <div class="container" id="box5">ease-in-out</div>
+    <div class="container" id="box6">cubic beizer</div>
+    
+</body>
+</html>
